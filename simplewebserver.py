@@ -17,6 +17,7 @@ while True:
         print('Before .recv()')
         request = client_socket.recv(4096)
         
+        
         if not request:    
             break
         else:
